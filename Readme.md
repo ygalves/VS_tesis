@@ -12,7 +12,7 @@ La implementación de un módulo de IA podría ofrecer una solución más flexib
 -   ¿Qué técnicas de IA son más efectivas para reemplazar a los controladores PID en sistemas de control industrial? 
 -   ¿Cuáles son las limitaciones y desafíos de implementar un módulo de IA en lugar de un controlador PID? 
 
-```
+
 flowchart TD
     A[Controladores PID]
     A --> B[Definición:\nProporcional + Integral + Derivativo]
@@ -27,7 +27,7 @@ flowchart TD
     A --> G[Módulo de IA]
     G --> G1[Potencial:\nOfrecer soluciones más flexibles y adaptativas]
     G --> G2[Investigación:\nEvaluar si puede igualar o superar el rendimiento de PID tradicionales]
-```
+
 
 ## 📂 Estructura del Proyecto
 
