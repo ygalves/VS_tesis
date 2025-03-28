@@ -1,0 +1,104 @@
+############################
+# 🔹 PYTHON & DEPENDENCIAS 🔹
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Pyenv
+.python-version
+
+# Poetry
+poetry.lock
+.cache/
+.venv/
+
+############################
+# 🔹 JUPYTER NOTEBOOKS 🔹
+############################
+.ipynb_checkpoints/
+
+############################
+# 🔹 MACHINE LEARNING 🔹
+############################
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+model/
+logs/
+checkpoints/
+saved_models/
+tensorboard_logs/
+
+############################
+# 🔹 DATOS Y ARCHIVOS GRANDES 🔹
+############################
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+############################
+# 🔹 APACHE AIRFLOW 🔹
+############################
+airflow.cfg
+unittests.cfg
+logs/
+dags/__pycache__/
+dags/*.pyc
+dags/*.pyo
+dags/*.pyd
+dags/.ipynb_checkpoints
+
+############################
+# 🔹 POSTGRESQL 🔹
+############################
+*.sql
+pgdata/
+postgresql/
+
+############################
+# 🔹 DOCKER 🔹
+############################
+docker-compose.override.yml
+*.dockerfile
+*.dockerignore
+.env  # Variables de entorno
+secrets/
+secrets/*  # Carpeta para credenciales y secretos
+
+############################
+# 🔹 GOOGLE DRIVE 🔹
+############################
+credentials.json  # Credenciales API de Google
+token.json        # Token de autenticación
+gdrive/
+gdrive/*          # Archivos temporales en Google Drive
+
+############################
+# 🔹 EDITORES Y ENTORNOS 🔹
+############################
+# VS Code
+.vscode/
+*.code-workspace  # Configuración de la carpeta de trabajo
+.history/         # Historial de archivos (extensión)
+.vscode-test/     # Pruebas de VS Code
+.vscode-server/   # Configuración remota en SSH o contenedores
+
+# PyCharm
+.idea/
+*.iml
+
+############################
+# 🔹 OTROS ARCHIVOS INNECESARIOS 🔹
+############################
+.DS_Store  # macOS
+Thumbs.db  # Windows
