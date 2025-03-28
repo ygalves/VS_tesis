@@ -28,22 +28,6 @@ flowchart TD
     G --> G1[Potencial:\nOfrecer soluciones más flexibles y adaptativas]
     G --> G2[Investigación:\nEvaluar si puede igualar o superar el rendimiento de PID tradicionales]
 ```
-```mermaid
-erDiagram
-   A["Controladores PID"] 
-   A --> B["Definición:\nProporcional + Integral + Derivativo"]
-   A --> C["Uso: Sistemas de control industrial - temperatura, nivel, flujo, velocidad"]
-   A --> D["Ventajas:\nSimplicidad y efectividad"]
-   A --> E["Limitaciones"]
-   E --> E1["Adaptación:\nDificultad con cambios dinámicos y no lineales"]
-   E --> E2["Soluciones:\nLazos de control feed forward y sistemas IMC"]
-   A --> F["Técnicas de Sintonización"]
-   F --> F1["Objetivo: Ajustar parámetros Kp, Ki, Kd para evitar saturación, ruido, sobre/sub-amortiguación"]
-   F --> F2["Ejemplos:\nZigler-Nichols, Autotunning, fuzzy autotunning, Cohen-Coon, IMC, Skogestad"]
-   A --> G["Módulo de IA"]
-   G --> G1["Potencial:\nOfrecer soluciones más flexibles y adaptativas"]
-   G --> G2["Investigación:\nEvaluar si puede igualar o superar el rendimiento de PID tradicionales"]
-```
 
 ## 📂 Estructura del Proyecto
 
