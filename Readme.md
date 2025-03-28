@@ -13,20 +13,54 @@ La implementación de un módulo de IA podría ofrecer una solución más flexib
 -   ¿Cuáles son las limitaciones y desafíos de implementar un módulo de IA en lugar de un controlador PID? 
 
 ```mermaid
-flowchart TD
-    A[Controladores PID]
-    A --> B[Definición:\nProporcional + Integral + Derivativo]
-    A --> C[Uso: Sistemas de control industrial - temperatura, nivel, flujo, velocidad]
-    A --> D[Ventajas:\nSimplicidad y efectividad]
-    A --> E[Limitaciones]
-    E --> E1[Adaptación:\nDificultad con cambios dinámicos y no lineales]
-    E --> E2[Soluciones:\nLazos de control feed forward y sistemas IMC]
-    A --> F[Técnicas de Sintonización]
-    F --> F1[Objetivo: Ajustar parámetros Kp, Ki, Kd para evitar saturación, ruido, sobre/sub-amortiguación]
-    F --> F2[Ejemplos:\nZigler-Nichols, Autotunning, fuzzy autotunning, Cohen-Coon, IMC, Skogestad]
-    A --> G[Módulo de IA]
-    G --> G1[Potencial:\nOfrecer soluciones más flexibles y adaptativas]
-    G --> G2[Investigación:\nEvaluar si puede igualar o superar el rendimiento de PID tradicionales]
+mindmap
+  root((Investigacion))
+    Controladores PID:​
+      Definición
+      ::icon(fa fa-book)
+        Controladores Proporcional + Integral + Derivativo.​
+      Uso
+        Amplio en sistemas de control industrial 
+            temperatura
+            nivel
+            flujo
+            velocidad
+            PH
+      Técnicas de Sintonización:
+        Objetivo
+            Ajustar parámetros de control
+                Kp
+                Ki
+                Kd
+                etc
+            Evitar problemas
+                Saturación
+                Ruido
+                Sobre/sub-amortiguación
+        Ejemplos
+            Reglas de Zigler-Nichols
+            Autotunning
+            Fuzzy autotunning
+            Cohen-Coon
+            IMC
+            Skogestad.
+      ETL
+      Módulo de IA
+        Potencial
+            Ofrecer soluciones más flexibles y adaptativas.​
+            Necesaria para evaluar si puede igualar o superar el rendimiento de los PID tradicionales.​
+        Investigación
+    Ventajas
+      Simplicidad
+      Efectividad.
+    Limitaciones
+      Adaptación
+         Dificultad con cambios dinámicos y no lineales.
+      Soluciones
+         Lazos de control cerrados
+         Lazos en cascada
+         Lazos feed forward
+         sistemas de Control Interno del Modelo IMCs
 ```
 
 ## 📂 Estructura del Proyecto
