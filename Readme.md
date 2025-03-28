@@ -16,23 +16,22 @@ La implementación de un módulo de IA podría ofrecer una solución más flexib
 mindmap
   root((Investigacion))
     Controladores PID:​
+    ::icon(fa fa-industry)
       Definición
-      ::icon(fa fa-book)
-        Controladores Proporcional + Integral + Derivativo.​
-      Uso
-        Amplio en sistemas de control industrial 
-            temperatura
-            nivel
-            flujo
-            velocidad
-            PH
-      Técnicas de Sintonización:
-        Objetivo
-            Ajustar parámetros de control
-                Kp
-                Ki
-                Kd
-                etc
+        Uso
+            Amplio en sistemas de control industrial 
+                temperatura
+                nivel
+                flujo
+                velocidad
+                PH
+        Técnicas de Sintonización:
+            Objetivo
+                Ajustar parámetros de control
+                    Kp
+                    Ki
+                    Kd
+                    etc
             Evitar problemas
                 Saturación
                 Ruido
@@ -44,23 +43,47 @@ mindmap
             Cohen-Coon
             IMC
             Skogestad.
-      ETL
-      Módulo de IA
+        Ventajas
+            Simplicidad
+            Efectividad.
+        Limitaciones
+            Adaptación
+                Dificultad con cambios dinámicos y no lineales.
+        Soluciones
+            Lazos de control cerrados
+            Lazos en cascada
+            Lazos feed forward
+            Sistemas de Control Interno del Modelo IMCs
+    Módulo de IA
+        ::icon(fa fa-cogs)
         Potencial
             Ofrecer soluciones más flexibles y adaptativas.​
             Necesaria para evaluar si puede igualar o superar el rendimiento de los PID tradicionales.​
         Investigación
-    Ventajas
-      Simplicidad
-      Efectividad.
-    Limitaciones
-      Adaptación
-         Dificultad con cambios dinámicos y no lineales.
-      Soluciones
-         Lazos de control cerrados
-         Lazos en cascada
-         Lazos feed forward
-         sistemas de Control Interno del Modelo IMCs
+            Modelos adecuados para la aplicacion
+                Tecnicas de Sintonizacion
+                Análisis de datos
+            Despliegue de modelo para produccion
+                Sustitución del control
+    ETL
+    ::icon(fa fa-wrench)
+        Tecnica de conexion
+            API
+            OPC
+            OPCUa
+        Tecnica de seriaizacion
+            Airflow
+        Ingesta de datos
+            Raw Bulk Append data
+                Jason
+                CSV
+        Extraccion
+            Airflow
+                Python Dags
+                    Pandas 
+                    AlchemySQL
+                PostgreSQL
+                    Staging Tables
 ```
 
 ## 📂 Estructura del Proyecto
