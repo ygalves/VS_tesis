@@ -1,0 +1,17 @@
+[project]
+name = "miacd tesis"
+version = "0.1.0"
+description = "Trabajo de investigacion Maestria en Inteligencia Artificial y Ciencia de Datos"
+authors = [
+    {name = "ygalves",email = "yoniliman.galves@uao.edu.co"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
